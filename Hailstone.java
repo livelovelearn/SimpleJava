@@ -10,10 +10,10 @@ import acm.program.*;
 
 public class Hailstone extends ConsoleProgram {
 	public void run() {
-		int num = readInt("Enter a number");
+		int num = readInt("Enter a number: ");
 		int count=0;
 		int num2;
-		while(num!=1)
+		while(num!=0&num!=1)
 			{count++;
 			if (num%2==1)
 		     {
