@@ -19,6 +19,9 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GRect rect2 = new GRect(500, 300, width, height);
 		GRect rect3 = new GRect(800, 300, width, height);
 		add(rect0);
+		add(rect1);
+		add(rect2);
+		add(rect3);
 		
 		//GLine line1 = new GLine();
 		
