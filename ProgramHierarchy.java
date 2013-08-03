@@ -24,15 +24,19 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add(rect3);
 		
 		GLine line1 = new GLine(500+width/2, 100+height, 200+width/2, 300);
-		
-		
+		GLine line2 = new GLine(500+width/2, 100+height, 500+width/2, 300);
+		GLine line3 = new GLine(500+width/2, 100+height, 800+width/2, 300);
 		add(line1);
+		add(line2);
+		add(line3);
 		
 		
-		//GLabel label0 = new GLabel("Program", 200-label1.getwidth()/2, 200+label0.getAscent()/2);
+		GLabel label0 = new GLabel("Program", 500+width/2, 100);
 		GLabel label1 = new GLabel("GraphicsProgram");
 		GLabel label2 = new GLabel ("ConsoleProgram");
 		GLabel label3 = new GLabel ("DialogProgram");
+		
+		add(label0);
 	}
 }
 
