@@ -23,7 +23,7 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add(rect2);
 		add(rect3);
 		
-		GLine line1 = new GLine(500+width/2, 100, 200+width/2, 300-height);
+		GLine line1 = new GLine(500+width/2, 100+height, 200+width/2, 300);
 		
 		
 		add(line1);
