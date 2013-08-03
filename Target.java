@@ -12,6 +12,8 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {	
 	public void run() {
-		/* You fill this in. */
+		GOval oval1 = new GOval(0, 0, 72, 72);
+		oval1.setFilled(true);
+		oval1.setColor(Color.RED);
 	}
 }
