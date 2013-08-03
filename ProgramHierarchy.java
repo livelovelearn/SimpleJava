@@ -38,10 +38,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		GLabel label1 = new GLabel("GraphicsProgram", 200+width/2-labe1.getWidth()/2,300+height/2+labe1.getAscent()/2);
 		
 		GLabel labe2 = new GLabel ("ConsoleProgram");
-		GLabel label2 = new GLabel("Program", 500+width/2-labe2.getWidth()/2,300+height/2+labe2.getAscent()/2);
+		GLabel label2 = new GLabel("ConsoleProgram", 500+width/2-labe2.getWidth()/2,300+height/2+labe2.getAscent()/2);
 		
 		GLabel labe3 = new GLabel ("DialogProgram");
-		GLabel label3 = new GLabel("Program", 800+width/2-labe3.getWidth()/2,300+height/2+labe3.getAscent()/2);
+		GLabel label3 = new GLabel("DialogProgram", 800+width/2-labe3.getWidth()/2,300+height/2+labe3.getAscent()/2);
 		
 		add(label0);
 		add(label1);
