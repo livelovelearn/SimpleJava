@@ -29,6 +29,7 @@ public class FindRange extends ConsoleProgram {
 		    		smallest = num;
 		    	if (num > largest)
 		    		largest = num;	
+		    	 num = readInt("? ");
 		    }
 		    println("smallest: " + smallest);
 		    println("largest: " + largest);
