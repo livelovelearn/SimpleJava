@@ -12,7 +12,7 @@ import java.awt.*;
 
 public class ProgramHierarchy extends GraphicsProgram {	
 	public void run() {
-		double width = 100; // Grect width
+		double width = 200; // Grect width
 		double height = 75; // Grect height
 		GRect rect0 = new GRect(500, 100, width, height);
 		GRect rect1 = new GRect(200, 300, width, height);
@@ -23,7 +23,10 @@ public class ProgramHierarchy extends GraphicsProgram {
 		add(rect2);
 		add(rect3);
 		
-		//GLine line1 = new GLine();
+		GLine line1 = new GLine(500+width/2, 100, 200+width/2, 300-height);
+		
+		
+		add(line1);
 		
 		
 		//GLabel label0 = new GLabel("Program", 200-label1.getwidth()/2, 200+label0.getAscent()/2);
