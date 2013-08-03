@@ -20,16 +20,16 @@ public class Pyramid extends GraphicsProgram {
 	private static final int BRICK_WIDTH = 30;
 
 	/** Width of each brick in pixels */
-	private static final int BRICK_HEIGHT = 12;
+	private static final int BRICK_HEIGHT = 12; //need even number, otherwise use double type
 
 	/** Number of bricks in the base of the pyramid */
 	private static final int BRICKS_IN_BASE = 11;
 	
 	public void run() {
-		for (int j=1; j<=BRICKS_IN_BASE; j++)
-		{for (int i=0; i<BRICKS_IN_BASE+1-j; i++)
+		for (int j=0; j<BRICKS_IN_BASE; j++) //build multiple levels
+		{for (int i=0; i<BRICKS_IN_BASE-j; i++) // build single level
 		 {
-			GRect rect = new GRect(getWidth()/2-(BRICKS_IN_BASE-2*i)*BRICK_WIDTH/2+BRICK_WIDTH/2*(j-1), getHeight()-BRICK_HEIGHT*j, BRICK_WIDTH, BRICK_HEIGHT);
+			GRect rect = new GRect(getWidth()/2-(BRICKS_IN_BASE*BRICK_WIDTH/2-i*BRICK_WIDTH)+BRICK_WIDTH/2*(j), getHeight()-BRICK_HEIGHT*j, BRICK_WIDTH, BRICK_HEIGHT);
 		    add(rect);
 		 }
 		}
