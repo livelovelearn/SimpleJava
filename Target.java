@@ -19,7 +19,7 @@ public class Target extends GraphicsProgram {
 		
 		GOval oval2 = new GOval(getWidth()/2-23, getHeight()/2-23, 46, 46);
 		oval2.setFilled(true);
-		
+		oval2.setColor(Color.white);
 		add (oval2);
 		
 		GOval oval3 = new GOval(getWidth()/2-11, getHeight()/2-11, 22, 22);
