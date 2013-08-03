@@ -29,7 +29,7 @@ public class Pyramid extends GraphicsProgram {
 		for (int j=1; j<=BRICKS_IN_BASE; j++)
 		{for (int i=0; i<BRICKS_IN_BASE+1-j; i++)
 		 {
-			GRect rect = new GRect(getWidth()/2-(BRICKS_IN_BASE-2*i)*BRICK_WIDTH/2+BRICK_WIDTH*(j-1), getHeight()-BRICK_HEIGHT*j, BRICK_WIDTH, BRICK_HEIGHT);
+			GRect rect = new GRect(getWidth()/2-(BRICKS_IN_BASE-2*i)*BRICK_WIDTH/2+BRICK_WIDTH/2*(j-1), getHeight()-BRICK_HEIGHT*j, BRICK_WIDTH, BRICK_HEIGHT);
 		    add(rect);
 		 }
 		}
