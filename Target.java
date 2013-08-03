@@ -12,7 +12,7 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {	
 	public void run() {
-		GOval oval1 = new GOval(0, 0, 72, 72);
+		GOval oval1 = new GOval(200, 200, 72, 72);
 		oval1.setFilled(true);
 		oval1.setColor(Color.RED);
 	}
