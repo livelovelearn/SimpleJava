@@ -1,10 +1,4 @@
-/*
- * File: ProgramHierarchy.java
- * Name:
- * Section Leader:
- * ---------------------------
- * This file is the starter file for the ProgramHierarchy problem.
- */
+// this program shows a graphic program hierarchy
 
 import acm.graphics.*;
 import acm.program.*;
