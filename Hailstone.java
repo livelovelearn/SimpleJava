@@ -1,10 +1,4 @@
-/*
- * File: Hailstone.java
- * Name:
- * Section Leader:
- * --------------------
- * This file is the starter file for the Hailstone problem.
- */
+// This program simulates the hailstone problem.
 
 import acm.program.*;
 
