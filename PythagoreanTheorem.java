@@ -1,10 +1,4 @@
-/*
- * File: PythagoreanTheorem.java
- * Name:
- * Section Leader:
- * -----------------------------
- * This file is the starter file for the PythagoreanTheorem problem.
- */
+// This program calculated the length third edge given the other two edges based on Pythagorean Theorem 
 
 import acm.program.*;
 
